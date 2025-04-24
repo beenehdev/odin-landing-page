@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.heromain {
+    background-color: #1F2937;
+}
+
+.kpis {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.banner {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}

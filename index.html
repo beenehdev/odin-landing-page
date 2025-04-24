@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Awesome Landing Page</title>
 
 </head>
 <body>
     <div class="header">
-        <h2>Header Logo</h2>
-        <ul>
+        <h2 id="headerlogo">Header Logo</h2>
+        <ul class="headerlinks">
             <li><a href="#">header link one</a></li>
             <li><a href="#">header link two</a></li>
             <li><a href="#">header link three</a></li>
@@ -18,28 +21,28 @@
     </div>
     <div class="heromain">
         <div class="herocontent">
-            <h1>This website is awesome</h1>
+            <h1 id="heroheader">This website is awesome</h1>
             <p> This website has some smaller, low contrast text here. It goes under the main title.</p>
-            <button class="herobutton">SUBSCRIBE</button>
+            <button id="herobutton">SUBSCRIBE</button>
         </div>
         <img class="heroimage" src="#" alt="Heroic image" width="TBA">
     </div>
     <div class="kpis">
-        <h2>Some random information.</h2>
-        <div class="images">
-            <ol>
-                <li><img class="kpiimg" src="#" alt="Key point one"></li>
-                <li><img class="kpiimg" src="#" alt="Key point two"></li>
-                <li><img class="kpiimg" src="#" alt="Key point three"></li>
-                <li><img class="kpiimg" src="#" alt="Key point four"></li>
+        <h2 id="kpiheader">Some random information.</h2>
+        <div>
+            <ol class="kpiimg">
+                <li><img src="#" alt="Key point one"></li>
+                <li><img src="#" alt="Key point two"></li>
+                <li><img src="#" alt="Key point three"></li>
+                <li><img src="#" alt="Key point four"></li>
             </ol>
         </div>
         <div class="captions">
-            <ol>
-                <li class="kpicap">this is some subtext under an image or illustration</li>
-                <li class="kpicap">this is some subtext under an image or illustration</li>
-                <li class="kpicap">this is some subtext under an image or illustration</li>
-                <li class="kpicap">this is some subtext under an image or illustration</li>
+            <ol class="kpicap">
+                <li>this is some subtext under an image or illustration</li>
+                <li>this is some subtext under an image or illustration</li>
+                <li>this is some subtext under an image or illustration</li>
+                <li>this is some subtext under an image or illustration</li>
             </ol>
         </div>
     </div>

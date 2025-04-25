@@ -19,6 +19,11 @@ li {
     list-style-type: none;
 }
 
+img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
 /* In hindsight the header should should have been combined with hero as an item for the body container. But I'm too lazy to change that now. */
 /* Using identical horizontal padding will fix this */
 .header {
@@ -72,6 +77,7 @@ li {
 }
 
 #heroimage {
+    border: none;
 }
 
 .kpis {
@@ -82,12 +88,17 @@ li {
 
 .kpiimg {
     display: flex;
+    gap: 20px;
 }
 
 .kpicap {
     display: flex;
+    gap: 20px;
 }
 
+.kpisubtext {
+    width: 124px;
+}
 
 .quote {
     background-color: #E5E7EB;

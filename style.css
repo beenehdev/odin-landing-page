@@ -19,10 +19,14 @@ li {
     list-style-type: none;
 }
 
+/* In hindsight the header should should have been combined with hero as an item for the body container. But I'm too lazy to change that now. */
+/* Using identical horizontal padding will fix this */
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 100px;
 }
 
 #headerlogo {
@@ -40,18 +44,34 @@ li {
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
-    
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-basis: 50%;
 }
 
 #heroheader {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: -10px;
 }
 
 #herobutton {
     background-color: #3882f6;
     color: #E5E7EB;
+    padding: 6px 20px;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+
+#heroimage {
 }
 
 .kpis {
@@ -77,9 +97,10 @@ li {
 }
 
 .banner {
-
+background-color: #3882f6;
 }
 
 .footer {
     background-color: #1F2937;
+    text-align: center;
 }
